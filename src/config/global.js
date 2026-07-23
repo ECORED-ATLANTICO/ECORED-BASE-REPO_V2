@@ -2,16 +2,16 @@ export default {
   global: {
     Name: 'Nombre del recurso educativo',
     Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.svg',
+    fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-1.svg',
       },
       {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-2.svg',
       },
     ],
   },
@@ -54,18 +54,6 @@ export default {
         titulo: 'Tema 3',
         desarrolloContenidos: true,
       },
-      {
-        nombreRuta: 'tema4',
-        numero: '4',
-        titulo: 'Tema 4',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema5',
-        numero: '5',
-        titulo: 'Tema 5',
-        desarrolloContenidos: true,
-      },
     ],
     subMenu: [
       {
@@ -85,11 +73,6 @@ export default {
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
       },
-      /*{
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },*/
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
@@ -112,24 +95,16 @@ export default {
       },
     ],
   },
-  complementario: [
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: '',
-    },
-  ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Término',
+      significado: 'Definición',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia: '---',
+      link: '---',
     },
   ],
   creditos: [
@@ -139,13 +114,13 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Responsable Nacional Ecosistema de Recursos Educativos Digitales (RED) - Profesional 06',
-          centro: 'Centro Agroturistico - Regional Santander',
+            'Profesional 06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Miguel de Jesús Paredes Maestre ',
-          cargo: 'Responsable de la línea de producción ',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+          nombre: '---',
+          cargo: 'Responsable de línea de producción',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -153,9 +128,9 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: ' ',
+          cargo: ' ',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -163,19 +138,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: ' ',
           cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: ' ',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: ' ',
           cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -183,14 +158,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: ' ',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: ' ',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },

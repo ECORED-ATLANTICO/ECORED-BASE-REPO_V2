@@ -103,8 +103,8 @@ export default {
   ],
   referencias: [
     {
-      referencia: '---',
-      link: '---',
+      referencia: 'REF',
+      link: 'LINK',
     },
   ],
   creditos: [
@@ -114,13 +114,13 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Profesional 06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
+            'Responsable Nacional Ecosistema de Recursos Educativos Digitales (RED) - Profesional 06',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '---',
+          nombre: 'Miguel de Jesús Paredes Maestre ',
           cargo: 'Responsable de línea de producción',
-          centro: 'Centro Agroturístico - Regional Santander',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },
@@ -128,9 +128,9 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: ' ',
-          cargo: ' ',
-          centro: 'Centro Agroturístico - Regional Santander',
+          nombre: 'Nombre responsable',
+          cargo: 'Nombre del rol',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },
@@ -138,19 +138,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: ' ',
+          nombre: 'Nombre responsable',
           cargo: 'Diseñador de contenidos',
-          centro: 'Centro Agroturístico - Regional Santander',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: ' ',
+          nombre: 'Nombre responsable',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro Agroturístico - Regional Santander',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: ' ',
+          nombre: 'Nombre responsable',
           cargo: 'Animador y productor audiovisual',
-          centro: 'Centro Agroturístico - Regional Santander',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },
@@ -158,14 +158,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: ' ',
+          nombre: 'Nombre responsable',
           cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro Agroturístico - Regional Santander',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: ' ',
+          nombre: 'Nombre responsable',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro Agroturístico - Regional Santander',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },

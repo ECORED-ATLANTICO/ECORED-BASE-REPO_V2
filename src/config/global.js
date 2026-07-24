@@ -54,6 +54,18 @@ export default {
         titulo: 'Tema 3',
         desarrolloContenidos: true,
       },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Tema 4',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Tema 5',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       {
@@ -127,6 +139,16 @@ export default {
     {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
+        {
+          nombre: 'Nombre responsable',
+          cargo: 'Nombre del rol',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+        },
+        {
+          nombre: 'Nombre responsable',
+          cargo: 'Nombre del rol',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+        },
         {
           nombre: 'Nombre responsable',
           cargo: 'Nombre del rol',

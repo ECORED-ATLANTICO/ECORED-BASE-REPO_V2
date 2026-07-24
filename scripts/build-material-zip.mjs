@@ -24,7 +24,9 @@ function run(cmd, args, opts) {
       }
     })
     p.on('close', (code) =>
-      code === 0 ? resolve() : reject(new Error(`${cmd} salió con código ${code}`)),
+      code === 0
+        ? resolve()
+        : reject(new Error(`${cmd} salió con código ${code}`)),
     )
   })
 }
